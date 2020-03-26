@@ -1,0 +1,142 @@
+.header-first{
+   background-color: #000320;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   height: 30px;
+}
+.header-second{
+   background-color: #a5a5a5;
+   margin-top:05px;
+   height: 30px;
+   font-family: 'Roboto', sans-serif;
+   color: #000320;
+}
+.Blue-Line {
+   background-color: #109AF0;
+   margin: 20px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   height: 30px;
+}
+#test
+{
+    text-align: center;
+    padding-top: 0px;
+}
+#utk{
+    text-decoration: none;
+}
+
+#welcome{
+    width:45%;
+    color: whitesmoke;
+    text-align: center;
+    float:left;
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#date{
+    width:40%;
+    color: whitesmoke;
+    float: left;
+    text-align: right;
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#acc{
+    width:10%;
+    color: whitesmoke;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+}
+#logo{
+    height:25px;
+    float: right;
+    padding-top: 3px;
+}
+.register{
+    margin: 0% 0% 0% 26%;
+    height:80%;
+    width:50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.track{
+    margin-left: 23%;
+    height:45%;
+    width:60%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+.special{
+    margin-left: 26%;
+    height:20%;
+    width:49%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.faculty{
+    margin-left: 24%;
+    height:12%;
+    width:53%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.about{
+    margin-left: 21%;
+    height:20%;
+    width:58%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    
+}
+.feedback{
+    margin: 1% 0% 3% 27%;
+    height:15%;
+    width:50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#content{
+    text-decoration: none;
+    text-align: center;
+    border:0.2px #000320 solid;
+    padding:8px 0px 8px 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #109AF0;
+    color:white;
+    
+    
+}
+footer{
+    margin-top: 2px;
+}
+.footer-first{
+   background-color: #000320;
+   height: 30px;
+}
+.footer-second{
+   background-color: #a5a5a5;
+   margin-top:05px;
+   height: 30px;
+}
+#table{
+    margin: 12px auto 5px auto; 
+    height: 20px;
+    width: 85%;
+    border-spacing: 90px 5px;  
+}
+
+td{
+    width: 33.3%;
+}
+
+td{
+    -webkit-filter: grayscale(95%);
+}
+td:hover{
+    -webkit-filter: grayscale(0%);
+    -webkit-transform: scale(1.09);
+    transition: transform .2s ease-in-out;
+    background-color: #f7f5f5;
+}
