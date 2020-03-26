@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <Title>
+      Jquery
+    </Title>
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.css">
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="scripts.js"></script>
+        <div class="header-first">
+                    
+        </div>
+        <div class="header-second">  
+        </div>
+        
+            <label for="carrier_sold">Carrier Sold: </label>
+                <select name="carrier_sold" id="carrier_sold">
+                <option value="" selected="selected">Select...</option>
+                <option value="MetLife">Metlife</option>
+                <option value="Travelers">Travelers</option>
+                </select>
+            
+            <label for="payment_plan">Payment Plan: </label>
+            <select name="payment_plan" id="payment_plan">
+               <option value="" selected="selected">Select...</option>
+               <option data-parent="MetLife" value="bill">Bill</option>
+               <option data-parent="MetLife" value="full">Full</option>
+               <option data-parent="Travelers" value="eft">EFT</option>
+               <option data-parent="Travelers" value="rcc">RCC</option>
+            </select>
+            
+         
+        <footer>
+        <div class="footer-first">
+        </div>
+        <div class="footer-second">
+        </div>
+            </footer>
+        
+    </body>        
+</html>

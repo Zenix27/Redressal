@@ -1,0 +1,111 @@
+
+.header-first {
+   background-color: #000320;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   height: 30px;
+}
+.header-second{
+   background-color: #a5a5a5;
+   margin-top:05px;
+   height: 30px;
+}
+.ball{
+    width: 33.3%;
+    height:580px;
+    background-color: none;
+    float:left;
+}
+.animated{
+    animation-name: ball;
+    animation-duration: 1s;
+}
+
+@keyframes rocket {
+   0%   {  transform:translate(0)    }
+   100%  {  transform:translate(0, -50%) }
+       70%  {  opacity:1; }
+       100%  {  opacity:0; }
+}
+.logo{
+    width: 33.3%;
+    height:580px;
+    background-color: none;
+    float:left;
+}
+.acc{
+    width:33.3%;
+    height:580px;
+    background-color: none;
+    float:left;
+}
+#ball{
+    padding: 0px 0px 0px 100px;
+    height: 580px;
+    width:330px;
+    float: left;
+}
+#logo{
+    margin:180px 0px 0px 100px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    height: 200px;
+    weight: 200px;
+}
+#acc{
+    margin:40px 0px 0px 110px;
+    padding: 0px 0px 0px 0px;
+    height: 200px;
+    width: 200px;
+}
+footer{
+    margin-top: 580px;
+}
+.footer-first{
+   background-color: #000320;
+   height: 30px;
+}
+.footer-second{
+   background-color: #a5a5a5;
+   margin-top:05px;
+   height: 30px;
+}
+
+form{
+     
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#Submit{
+    margin:0px 0px 0px 70px;
+    padding: 5px 29px 5px 30px;
+    border-radius: 10px;
+    background-color: #000320;
+    color: whitesmoke;
+    
+}
+#forgot{
+    margin:0px 0px 0px 135px;
+    color: #006bff;
+    text-decoration-line:none;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+input{
+   border: 50px 50px 50px 50px;
+     border-color: #a6a6a6;
+    padding:10px 30px 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    outline-color: transparent;
+    text-align: center;
+    border-color: red;
+    
+}
+
+::placeholder{
+    color:#a6a6a6;
+    
+}
