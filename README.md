@@ -1,3 +1,3 @@
 # Redressal
 Contains the HTML code of the IGRS project.
-About US and Index Page
+Added new Files i.e. the HTML and CSS code of remaining Project IGRS.
